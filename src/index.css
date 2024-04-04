@@ -35,6 +35,7 @@ a{
 
 .btn{
     border: 1px solid #f65e13;
+    border-radius: 0 !important;
     background: transparent;
     color: #f65e13;
     padding: 12px 25px;

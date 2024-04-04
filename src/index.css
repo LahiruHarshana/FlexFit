@@ -21,17 +21,16 @@ body{
 
 }
 
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 a{
     text-decoration: none;
     color: inherit;
     line-height: 1;
     cursor: pointer;
-}
-
-.container{
-    padding-left: 10%;
-    padding-right: 10%;
-
 }
 
 .btn{

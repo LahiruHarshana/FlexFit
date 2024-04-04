@@ -1,0 +1,29 @@
+.img {
+    width: 40%;
+    min-height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.5)), url('../../assets/story.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-left: 0;
+  }
+  
+  .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    color: #000;
+  }
+  
+  .text h1{
+    font-family: "Dosis", sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+  }
+
+  .text p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.9;
+  }

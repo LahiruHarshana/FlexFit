@@ -1,0 +1,95 @@
+$red: #AA3939;
+$brand_orange: #D49A6A;
+$menu_item_orange: #FFD1AA;
+$dark_mint: #0D4D4D;
+$darkest_mint: #373739;
+
+.navbar-inverse {
+  background-color: $red;
+  border: none;
+  .navbar-nav {
+    > li > a {
+      &,
+      &:hover {
+      color: $menu_item_orange;
+      }
+    }
+    > .active > a { 
+      &,
+      &:hover,
+      &:focus {
+        color: $menu_item_orange;
+        background: darken($red, 15%);
+      }
+    }
+   }  
+  .navbar-brand {
+    &,
+    &:hover {
+    color: $brand_orange;
+    //font-weight: bold;
+    }
+  }
+  .navbar-toggle {
+    border: 3px solid darken($red, 15%);
+    &:hover{
+      background-color: lighten($red, 25%);
+    }
+    &:focus {
+      background-color: lighten($red, 10%);
+    }
+    .icon-bar {
+      background-color: darken($red, 15%);
+    }
+  }
+}
+
+body {
+  margin-top: 7rem;
+  background-color: $dark_mint;
+}
+
+.filter-button-group {
+  padding: 15px;
+}
+
+.btn.btn-default {
+  padding: 1rem 0;
+  font-size: 1.7rem;
+  background-color: lighten($dark_mint, 10%);
+  border-color: $darkest_mint;
+  
+  border-radius: 0;
+  &:hover,
+  &:active, 
+  &:focus,
+  &.is-checked{
+    background-color: darken($dark_mint, 5%);
+    color: white ;
+    border: none;
+    outline: none;
+  }
+}
+
+.thumbnail {
+  border-radius: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+//customise modal
+
+a.pp_play,
+a.pp_arrow_previous,
+a.pp_arrow_next,
+a.pp_close{
+  display: none;
+}
+
+//.pp_social { float: left; margin: 0; width:450px;}
+.pp_social .twitter { float: left; width: 60px; }
+.pp_social .facebook { float: left; margin-left: 15px; width: 80px; overflow: hidden;}
+
+.pp_nav {
+  margin-top: 0;
+}

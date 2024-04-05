@@ -11,7 +11,6 @@ const Services = () => {
       pause: 'hover',
       wrap: true 
     });
-
     return () => {
       carouselInstance.dispose();
     };
@@ -22,7 +21,8 @@ const Services = () => {
       <div className="row">
         <div className="col">
           <section>
-            <p>Select from the product Catalogue</p>
+            <h1 className='Header'>SERVICES</h1>
+            <hr />
           </section>
 
           <div id="carouselExampleCaptions" className="carousel slide">
@@ -34,7 +34,6 @@ const Services = () => {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
-                  {/* Content for the first carousel item */}
                   <div className="col">
                     <div className="card shadow-sm mx-8 my-5">
                       <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -46,15 +45,17 @@ const Services = () => {
                         <i className="fa-solid fa-star text-warning"></i>
                         <i className="fa-solid fa-star text-warning"></i>
                         <i className="fa-regular fa-star text-warning"></i>
-                        <p className="card-text">Nike</p>
+                        <p className="card-text">Functional Training Area</p>
                         <div className="d-flex justify-content-between align-items-center">
-                          <small className="text-bg-warning px-2 rounded">$800.00</small>
+                        <small className=" rounded" style={{ background: "#f65e13 !important",color:"#8a8a8a"}}>
+    A designated space equipped with functional training tools and equipment such as TRX suspension trainers, kettlebells, battle ropes, plyometric boxes, and stability balls.
+</small>
+
+
                         </div>
                       </div>
                     </div>
                   </div>
-
-                  {/* Content for the second carousel item */}
                   <div className="col">
                     <div className="card shadow-sm mx-8 my-5">
                       <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -66,10 +67,11 @@ const Services = () => {
                         <i className="fa-solid fa-star text-warning"></i>
                         <i className="fa-regular fa-star text-warning"></i>
                         <i className="fa-regular fa-star text-warning"></i>
-                        <p className="card-text">Adidas</p>
+                        <p className="card-text">Personalized Training Programs</p>
                         <div className="d-flex justify-content-between align-items-center">
-                          <small className="text-bg-warning px-2 rounded">$600.00</small>
-                        </div>
+                        <small className=" rounded" style={{ background: "#f65e13 !important",color:"#8a8a8a"}}>
+    A designated space equipped with functional training tools and equipment such as TRX suspension trainers, kettlebells, battle ropes, plyometric boxes, and stability balls.
+</small>                        </div>
                       </div>
                     </div>
                   </div>
@@ -85,14 +87,15 @@ const Services = () => {
                         <i className="fa-solid fa-star text-warning"></i>
                         <i className="fa-regular fa-star text-warning"></i>
                         <i className="fa-regular fa-star text-warning"></i>
-                        <p className="card-text">Adidas</p>
+                        <p className="card-text">Mind-Body Wellness Workshops</p>
                         <div className="d-flex justify-content-between align-items-center">
-                          <small className="text-bg-warning px-2 rounded">$600.00</small>
+                        <small className=" rounded" style={{ background: "#f65e13 !important",color:"#8a8a8a"}}>
+    A designated space equipped with functional training tools and equipment such as TRX suspension trainers, kettlebells, battle ropes, plyometric boxes, and stability balls.
+</small>
                         </div>
                       </div>
                     </div>
                   </div>
-                  {/* Add the third item here */}
                 </div>
               </div>
 
@@ -109,10 +112,11 @@ const Services = () => {
                         <i className="fa-solid fa-star text-warning"></i>
                         <i className="fa-regular fa-star text-warning"></i>
                         <i className="fa-regular fa-star text-warning"></i>
-                        <p className="card-text">Adidas</p>
+                        <p className="card-text">Group Fitness Classes</p>
                         <div className="d-flex justify-content-between align-items-center">
-                          <small className="text-bg-warning px-2 rounded">$600.00</small>
-                        </div>
+                        <small className=" rounded" style={{ background: "#f65e13 !important",color:"#8a8a8a"}}>
+    A designated space equipped with functional training tools and equipment such as TRX suspension trainers, kettlebells, battle ropes, plyometric boxes, and stability balls.
+</small>                        </div>
                       </div>
                     </div>
                   </div>
@@ -127,10 +131,11 @@ const Services = () => {
                         <i className="fa-solid fa-star text-warning"></i>
                         <i className="fa-regular fa-star text-warning"></i>
                         <i className="fa-regular fa-star text-warning"></i>
-                        <p className="card-text">Adidas</p>
+                        <p className="card-text">Nutritional Counseling</p>
                         <div className="d-flex justify-content-between align-items-center">
-                          <small className="text-bg-warning px-2 rounded">$600.00</small>
-                        </div>
+                        <small className=" rounded" style={{ background: "#f65e13 !important",color:"#8a8a8a"}}>
+    A designated space equipped with functional training tools and equipment such as TRX suspension trainers, kettlebells, battle ropes, plyometric boxes, and stability balls.
+</small>                        </div>
                       </div>
                     </div>
                   </div>
@@ -145,16 +150,14 @@ const Services = () => {
                         <i className="fa-solid fa-star text-warning"></i>
                         <i className="fa-regular fa-star text-warning"></i>
                         <i className="fa-regular fa-star text-warning"></i>
-                        <p className="card-text">Adidas</p>
+                        <p className="card-text">Recovery and Wellness Services</p>
                         <div className="d-flex justify-content-between align-items-center">
-                          <small className="text-bg-warning px-2 rounded">$600.00</small>
-                        </div>
+                        <small className=" rounded" style={{ background: "#f65e13 !important",color:"#8a8a8a"}}>
+    A designated space equipped with functional training tools and equipment such as TRX suspension trainers, kettlebells, battle ropes, plyometric boxes, and stability balls.
+</small>                        </div>
                       </div>
                     </div>
                   </div>
-                  {/* Add the fourth item here */}
-                  {/* Add the fifth item here */}
-                  {/* Add the sixth item here */}
                 </div>
               </div>
             </div>

@@ -1,4 +1,5 @@
 # React + TypeScript + Vite
+![WhatsApp Image 2024-04-11 at 23 32 59](https://github.com/LahiruHarshana/FlexFit/assets/124744833/f37c8d89-c643-4dd0-aa78-11ee446b37bd)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

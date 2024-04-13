@@ -22,8 +22,8 @@ const Services = () => {
         <div id='serviceRow' className="row">
           <div className="col">
             <section style={{position:'relative',top:'15%', color:'white'}}>
-              <h1 className='Header'>SERVICES</h1>
-              <hr/>
+              <h1 style={{fontSize:'60px'}} className='Header'>SERVICES</h1>
+              <hr />
             </section>
 
             <div id="carouselExampleCaptions" className="carousel slide " style={{position:'relative',top:'25%'}}>

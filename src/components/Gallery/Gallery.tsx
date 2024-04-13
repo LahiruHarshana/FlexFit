@@ -3,9 +3,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const Gallery = () => {
   return (
-    <Container className='' style={{position:'relative',top:'200px'}} >
+    <Container className='' style={{}} >
 
-      <h1 style={{marginBottom:'-50px'}}>GALLERY</h1>
+      <h1 style={{marginBottom:''}}>GALLERY</h1>
       <hr style={{marginBottom:'100px'}}/>
       <Row>
         <Col lg={4} md={12} className="mb-4 mb-lg-0">

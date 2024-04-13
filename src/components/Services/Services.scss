@@ -1,23 +1,36 @@
 /* Services.scss */
 #serviceRow {
-    min-height: 100vh; /* Ensure the row fills the viewport height */
-    overflow-y: auto; /* Enable vertical scrolling */
+    min-height: 100vh;
+    overflow-y: auto;
 }
 
 #service {
-    min-height: 100vh; /* Ensure the container fills the viewport height */
+    min-height: 100vh;
     position: relative;
 }
 
 .services-background {
-    min-height: 100vh; /* Ensure the background fills the viewport height */
+    position: relative; 
+    min-height: 100vh;
     background-image: url('../../assets/GYM-Fitness-Wallpaper-HD.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    z-index: -1; /* Place behind other elements */
+    z-index: -1;
     background-attachment: fixed;
 }
+
+.services-background::before {
+    content: '';
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
 
 hr {
     border: #f65e13;

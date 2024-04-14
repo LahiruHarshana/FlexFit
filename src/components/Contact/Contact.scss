@@ -1,78 +1,100 @@
 // Contact.scss
 .contact-form {
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    background-image: url('../../assets/5018.jpg'); /* Add your image URL here */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url('../../assets/400555-gym-workout-wallpaper-top-free-gym-workout-background.jpg'); /* Add your image URL here */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  position: relative;
+
+  h1 {
+    margin-bottom: 20px;
+    color: #fff; /* Change text color to white */
+  }
+
+  hr {
+    border: 0;
+    margin: 20px auto;
+    width: 50%;
+  }
+
+  .form-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2); /* 20% transparent black */
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    text-align: center;
-  
-    h1 {
-      margin-bottom: 20px;
-      color: #fff; /* Change text color to white */
-    }
-  
-    hr {
-      border: 0;
-      margin: 20px auto;
-      width: 50%;
-    }
-  
-    form {
-      .form-group {
-        position: relative;
-        margin-bottom: 20px;
-  
-        input,
-        textarea {
-          width: 100%;
-          padding: 10px;
-          border: none;
-          border-bottom: 1px solid #ccc;
-          background-color: transparent;
-          color: #fff; /* Change input text color to white */
-          transition: border-color 0.3s ease;
-  
-          &:focus {
-            outline: none;
-            border-color: #f65e13;
-          }
-  
-          &:focus + label,
-          &:valid + label {
-            top: -12px;
-            font-size: 14px;
-            color: #f65e13;
-          }
-        }
-  
-        label {
-          position: absolute;
-          top: 10px;
-          left: 0;
-          font-size: 16px;
-          color: #777;
-          transition: all 0.3s ease;
-        }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+
+  .form-container {
+    width: 50%;
+    z-index: 2;
+  }
+
+  form {
+    position: relative;
+    z-index: 3;
+  }
+
+  .form-group {
+    position: relative;
+    margin-bottom: 20px;
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      background-color: transparent;
+      color: #fff;
+      transition: border-color 0.3s ease;
+
+      &:focus {
+        outline: none;
+        border-color: #f65e13;
       }
-  
-      button {
-        padding: 10px 20px;
-        background-color: #f65e13;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-  
-        &:hover {
-          background-color: #e04d00;
-        }
+
+      &:focus + label,
+      &:valid + label {
+        top: -12px;
+        font-size: 14px;
+        color: #f65e13;
       }
+    }
+
+    label {
+      position: absolute;
+      top: 10px;
+      left: 0;
+      font-size: 16px;
+      color: #777;
+      transition: all 0.3s ease;
     }
   }
-  
+
+  button {
+    padding: 10px 20px;
+    background-color: #f65e13;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #e04d00;
+    }
+  }
+}

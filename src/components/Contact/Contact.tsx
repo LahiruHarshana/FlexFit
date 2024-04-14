@@ -23,9 +23,9 @@ const Contact = () => {
 
   return (
     <div className="contact-form">
-      <h1>Contact Us</h1>
-      <hr />
-      <form onSubmit={handleSubmit}>
+              <h1>Contact Us</h1>
+        <div className='sub-contact-form'>
+        <form onSubmit={handleSubmit}>
         <div className="form-group">
           <input type="text" name="name" value={formData.name} onChange={handleChange} required />
           <label>Name</label>
@@ -40,6 +40,10 @@ const Contact = () => {
         </div>
         <button type="submit">Submit</button>
       </form>
+
+        </div>
+      <hr />
+
     </div>
   );
 };

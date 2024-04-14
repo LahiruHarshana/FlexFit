@@ -12,6 +12,14 @@
   text-align: center;
   position: relative;
 
+  .sub-contact-form {
+    width: 50%;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: rgba(246, 246, 246, 0.197); /* 20% transparent black */
+    border-radius: 10px;
+
+  }
   h1 {
     margin-bottom: 20px;
     color: #fff; /* Change text color to white */
@@ -85,11 +93,12 @@
   }
 
   button {
-    padding: 10px 20px;
-    background-color: #f65e13;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #f65e13;
+    border: 1px solid #f65e13;
     cursor: pointer;
     transition: background-color 0.3s ease;
 

@@ -23,7 +23,9 @@ const Contact = () => {
 
   return (
     <div className="contact-form">
-              <h1>Contact Us</h1>
+              <h1>  CONTACT US</h1>
+              <hr />
+
         <div className='sub-contact-form'>
         <form onSubmit={handleSubmit}>
         <div className="form-group">
@@ -42,7 +44,6 @@ const Contact = () => {
       </form>
 
         </div>
-      <hr />
 
     </div>
   );

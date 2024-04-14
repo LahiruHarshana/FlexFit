@@ -44,3 +44,13 @@ h1{
     font-size: 60px;
     font-weight: 600;
 }
+/* Services.scss */
+.service-card {
+    transition: transform 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  

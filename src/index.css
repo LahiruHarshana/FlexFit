@@ -48,5 +48,6 @@ a{
 .btn:hover{
     background-color: #f65e13;
     color: #fff;
+    border: 0;
     
 }

@@ -13,11 +13,19 @@ const Blog = () => {
             font-weight: 700;
             font-size: 24px;
           }
-          .card {
-            transition: transform 0.2s;
+          .blog-card {
+            border: none;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
           }
-          .card:hover {
-            transform: scale(1.05);
+          .blog-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+          }
+          .card-img-top {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
           }
         `}
       </style>
@@ -26,11 +34,11 @@ const Blog = () => {
       <Row>
         <Col md={6}>
           <Card className="blog-card" style={{ marginBottom: '20px' }}>
-            <Card.Img variant="top" src="https://images4.alphacoders.com/134/1345029.png" height={400} alt='blog1' />
+            <Card.Img variant="top" src="https://images4.alphacoders.com/134/1345029.png" height={400} alt='blog1' className="card-img-top" />
             <Card.Body>
-              <Card.Title id='h2-1' style={{ fontSize: '24px' }}>Blog 1</Card.Title>
+              <Card.Title id='h2-1'>Blog 1</Card.Title>
               <Card.Text>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga vel mollitia officiis esse et aliquid, porro animi quaerat optio alias repellat corporis ipsum rem voluptate voluptatem non nisi vitae cupiditate.
+                Explore our blog for quick bursts of knowledge and inspiration. With concise articles and practical advice, we aim to make learning effortless and enjoyable. Whether you're on a coffee break or waiting for the bus, our blog is your go-to source for valuable insights on the go.
               </Card.Text>
               <Button variant="primary">Read More</Button>
             </Card.Body>
@@ -39,11 +47,11 @@ const Blog = () => {
 
         <Col md={6}>
           <Card className="blog-card" style={{ marginBottom: '20px' }}>
-            <Card.Img variant="top" src="https://rare-gallery.com/thumbs/108733-girl-fitness-exercise-gym-dumbbells-workout-sportswear-motivation.jpg" height={400} alt='blog2' />
+            <Card.Img variant="top" src="https://rare-gallery.com/thumbs/108733-girl-fitness-exercise-gym-dumbbells-workout-sportswear-motivation.jpg" height={400} alt='blog2' className="card-img-top" />
             <Card.Body>
-              <Card.Title id='h2-2' style={{ fontSize: '24px' }}>Blog 2</Card.Title>
+              <Card.Title id='h2-2'>Blog 2</Card.Title>
               <Card.Text>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga vel mollitia officiis esse et aliquid, porro animi quaerat optio alias repellat corporis ipsum rem voluptate voluptatem non nisi vitae cupiditate.
+                Welcome to our blog! Here, you'll find bite-sized insights, handy tips, and inspiring stories to brighten your day and broaden your horizons. From quick reads to thought-provoking content, we've got something for everyone. So, grab a cup of coffee and enjoy a quick dose of inspiration!
               </Card.Text>
               <Button variant="primary">Read More</Button>
             </Card.Body>

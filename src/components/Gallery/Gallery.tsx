@@ -6,7 +6,7 @@ const Gallery = () => {
   return (
     <Container id="gallery" className="gallery-container">
       <h1>GALLERY</h1>
-      <hr />
+      <hr style={{marginBottom:'90px'}} />
       <Row>
         <Col lg={4} md={12} className="mb-4 mb-lg-0">
           <div className="image-wrapper">

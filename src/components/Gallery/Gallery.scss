@@ -1,0 +1,22 @@
+.gallery-container {
+    padding-top: 40px;
+  }
+  
+  .image-wrapper {
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .image-wrapper:hover .image {
+    transform: scale(1.05);
+  }
+  
+  .image {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
